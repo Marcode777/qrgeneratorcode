@@ -1,0 +1,28 @@
+{
+  "name": "qrgeneratorproject",
+  "version": "1.0.0",
+  "description": "This is a QR generator project, more to come",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Marcode777/qrgeneratorcode.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Marcode777/qrgeneratorcode/issues"
+  },
+  "homepage": "https://github.com/Marcode777/qrgeneratorcode#readme",
+  "dependencies": {
+    "express": "^5.2.1",
+    "multer": "^2.1.1",
+    "qrcode": "^1.5.4",
+    "uuid": "^13.0.0"
+  }
+}
