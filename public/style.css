@@ -397,6 +397,19 @@ input[type="url"]:focus {
   font-size: 0.9rem;
 }
 
+footer {
+  text-align: center;
+  padding: 24px 20px;
+}
+
+.tos {
+  font-size: 15px;
+  color: var(--text-muted);
+  max-width: 680px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
 /* Responsive */
 @media (max-width: 480px) {
   .card { padding: 24px 20px; }
